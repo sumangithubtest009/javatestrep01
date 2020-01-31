@@ -13,7 +13,7 @@ public class HelloWorld {
 			
 			System.out.println("/n");
 			}
-			System.out.println("lol");
+			System.out.println("Change1");
 		}
 			
 		
