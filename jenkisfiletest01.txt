@@ -2,8 +2,12 @@ pipeline
     agent any
  
  stages {
-      stage ('Test')
+      stage ('Build')
        steps {
-           bat 'docker --version'
+           bat 'javac HelloWorld.java'
+       }
+       stage ('Run')
+       steps {
+           bat 'java Helloworld'
        }
 }
